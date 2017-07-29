@@ -1,0 +1,61 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CompilerConfiguration">
+        <option name="DEFAULT_COMPILER" />
+      </component>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="GoToClass.includeLibraries" value="false" />
+        <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+        <property name="GoToFile.includeJavaFiles" value="false" />
+        <property name="MemberChooser.sorted" value="false" />
+        <property name="MemberChooser.showClasses" value="true" />
+        <property name="MemberChooser.copyJavadoc" value="false" />
+      </component>
+      <component name="SbtLocalSettings">
+        <option name="modificationStamps">
+          <map>
+            <entry key="$USER_HOME$/git/brandbond_api" value="1442399157000" />
+            <entry key="$USER_HOME$/git/hackbattle15-officemanager" value="1429713938000" />
+            <entry key="$USER_HOME$/git/hackbattle16-ubersocial" value="1464177617000" />
+            <entry key="$USER_HOME$/git/wcc_kbmanager/backend" value="4382685791000" />
+            <entry key="$USER_HOME$/git/web_usc_timetable" value="1436192439000" />
+          </map>
+        </option>
+        <option name="externalProjectsViewState">
+          <projects_view />
+        </option>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

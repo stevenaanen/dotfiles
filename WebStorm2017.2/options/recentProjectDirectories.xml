@@ -1,0 +1,90 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/git/shipright/client" />
+        <option value="$USER_HOME$/git/shipright-prototype" />
+        <option value="$USER_HOME$/git/shipright-prototype/client" />
+        <option value="$USER_HOME$/git/taxonomy-manager/taxonomymanager-frontend" />
+        <option value="$USER_HOME$/git/taxonomy-manager" />
+        <option value="$USER_HOME$/git/wcc_kbmanager/taxonomymanager-frontend" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/git/shipright/client" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/git/shipright/client" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/git/shipright-prototype">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-172.3317.70" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1500631526536" />
+              <option name="buildTimestamp" value="1500014964273" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/shipright-prototype/client">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1500025388079" />
+              <option name="buildTimestamp" value="1496849159999" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/shipright/client">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-172.3317.70" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1501250352338" />
+              <option name="buildTimestamp" value="1500014950496" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/taxonomy-manager">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1498045254712" />
+              <option name="buildTimestamp" value="1496849125205" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/taxonomy-manager/taxonomymanager-frontend">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-171.4694.29" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1498482800766" />
+              <option name="buildTimestamp" value="1496849118206" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/wcc_kbmanager/taxonomymanager-frontend">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-163.12024.17" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1486561595529" />
+              <option name="buildTimestamp" value="1485870692753" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

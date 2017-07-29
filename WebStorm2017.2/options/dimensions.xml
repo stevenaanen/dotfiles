@@ -1,0 +1,51 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1440.900" x="720" y="230" />
+    <location key="SettingsEditor.0.0.1440.900" x="209" y="112" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1440.900" x="471" y="325" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1440.900" x="438" y="276" />
+    <location key="com.intellij.ide.util.TipDialog.1440.-180.1920.1080" x="1878" y="96" />
+    <location key="com.intellij.lang.javascript.refactoring.extractMethod.JSExtractFunctionDialog.1440.-180.1920.1080" x="2523" y="3" />
+    <location key="findTextDialog.1440.-180.1920.1080" x="2162" y="86" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.2880.1800@192dpi" x="876" y="552" />
+    <location key="SettingsEditor.0.0.2880.1800@192dpi" x="418" y="224" />
+    <location key="com.intellij.ide.util.TipDialog.-2048.-252.2048.1152" x="438" y="276" />
+    <location key="#Notifications.1440.-180.1920.1080" x="2156" y="86" />
+    <location key="find.popup.-2048.-252.2048.1152" x="-1326" y="-137" />
+    <location key="find.popup.1440.-180.1920.1080" x="2098" y="-65" />
+    <location key="vcs.ApplyPatchDifferentiatedDialog.1440.-180.1920.1080" x="2123" y="61" />
+    <location key="com.intellij.lang.javascript.refactoring.extractMethod.JSExtractFunctionDialog.-2048.-252.2048.1152" x="-1262" y="-42" />
+    <location key="SettingsEditor.-2048.-252.2048.1152" x="-1535" y="-14" />
+    <location key="MergeDialog.-2048.-252.2048.1152" x="-2048" y="-252" />
+    <location key="MultipleFileMergeDialog.-2048.-252.2048.1152" x="-1325" y="69" />
+    <location key="find.popup.0.0.2880.1800@192dpi" x="800" y="230" />
+    <location key="WELCOME_SCREEN.0.0.2880.1800@192dpi" x="1438" y="482" />
+    <location key="com.intellij.lang.javascript.refactoring.extractMethod.JSExtractFunctionDialog.0.0.2880.1800@192dpi" x="1730" y="202" />
+    <location key="MergeDialog.1440.-180.1920.1080" x="1440" y="-138" />
+    <location key="MultipleFileMergeDialog.1440.-180.1920.1080" x="2099" y="105" />
+    <location key="find.popup.1440.-720.1080.1920" x="1650" y="-563" />
+    <location key="ReplaceDuplicatesPrompt.1440.-720.1080.1920" x="1473" y="-210" />
+    <location key="com.intellij.ide.util.TipDialog.1440.-720.1080.1920" x="877" y="22" />
+    <location key="com.intellij.ide.util.TipDialog.1440.-529.1080.1920" x="1698" y="-117" />
+    <location key="find.popup.1440.-529.1080.1920" x="1650" y="-372" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1440.-529.1080.1920" x="1746" y="-80" />
+    <location key="ReplaceDuplicatesPrompt.1440.-529.1080.1920" x="1473" y="-49" />
+    <location key="SettingsEditor.1440.-529.1080.1920" x="1469" y="-371" />
+    <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.1440.-529.1080.1920" x="1629" y="-268" />
+    <size key="javadoc.popup.0.0.1440.900" width="481" height="175" />
+    <size key="javadoc.popup.1440.-180.1920.1080" width="481" height="175" />
+    <size key="javadoc.popup.-2048.-252.2048.1152" width="481" height="343" />
+    <size key="javadoc.popup.-1920.-180.1920.1080" width="481" height="175" />
+    <size key="javadoc.popup.0.0.2880.1800@192dpi" width="962" height="350" />
+    <size key="javadoc.popup.-1920.0.1920.1080" width="481" height="175" />
+    <size key="find.popup.-2048.-252.2048.1152" width="757" height="420" />
+    <size key="find.popup.1440.-180.1920.1080" width="757" height="420" />
+    <size key="MergeDialog.-2048.-252.2048.1152" width="2048" height="1148" />
+    <size key="find.popup.0.0.2880.1800@192dpi" width="1740" height="1260" />
+    <size key="MergeDialog.1440.-180.1920.1080" width="1738" height="1038" />
+    <size key="javadoc.popup.1440.-720.1080.1920" width="481" height="175" />
+    <size key="find.popup.1440.-720.1080.1920" width="870" height="630" />
+    <size key="javadoc.popup.1440.-529.1080.1920" width="481" height="175" />
+    <size key="find.popup.1440.-529.1080.1920" width="870" height="630" />
+  </component>
+</application>
