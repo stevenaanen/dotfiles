@@ -12,4 +12,5 @@ Go to settings and use 'Load preferences from a custom folder or URL' option
 
 ## ZSH
 
+Put sensitive env variables / custom config in `~/.env` or at least touch the file so that it exists. Then do this:
 `ln -s .zshrc ~/.zshrc`
