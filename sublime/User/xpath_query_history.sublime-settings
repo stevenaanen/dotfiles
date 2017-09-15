@@ -1,0 +1,37 @@
+{
+	"history":
+	[
+		[
+			"div[@data-component-context = \"user\"]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//div[contains(@class, 'ProfileCard ')]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//a[contains(@class, 'ProfileCard-bg')]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//div[contains(@class, 'ProfileCard-actions')]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//div[contains(@class, 'ProfileCard-bio')]/text()",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//p[contains(@class, 'ProfileCard-bio')]/text()",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//p[contains(@class, 'ProfileCard-bio')]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		],
+		[
+			"//div[contains(@class, 'ProfileCard-userFields')]",
+			"/Users/steven/Dropbox (Grible)/Grible Intern/Product/Shipright/competition/roadmap.space/roadmap-twitter-followers-cleaned.html"
+		]
+	]
+}
