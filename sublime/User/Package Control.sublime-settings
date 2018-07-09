@@ -8,10 +8,12 @@
 		"Compare Side-By-Side",
 		"EditorConfig",
 		"Emmet",
+		"HTMLBeautify",
 		"Package Control",
 		"Pretty JSON",
 		"Sass",
-		"Vue Syntax Highlight",
+		"Sync View Scroll",
+		"Terraform",
 		"xpath"
 	]
 }
