@@ -22,3 +22,9 @@ Put sensitive env variables / custom config in `~/.env` or at least touch the fi
 
 Install oh-my-zsh
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+## Karabiner (keyboard settings)
+
+`brew cask install karabiner-elements`
+`ln -s ~/git/my-workspace/karabiner ~/.config`
+
+Restart the system after this.
