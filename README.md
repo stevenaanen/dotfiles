@@ -28,3 +28,12 @@ Install oh-my-zsh
 `ln -s ~/git/my-workspace/karabiner ~/.config`
 
 Restart the system after this.
+
+## MacOS
+
+Sets some OS-level preferences.
+
+`sh defaults.sh`
+
+Logout and login after this.
+
