@@ -4,6 +4,7 @@
 "
 "   Many things stolen from:
 "     https://github.com/amix/vimrc
+"     https://github.com/tpope/vim-sensible
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -25,18 +26,26 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set encoding=utf8
 
+" auto reload file when changed from outside; undo with `u`
+set autoread
+
+if &history < 1000
+  set history=1000
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set 5 lines to the cursor - when moving vertically using j/k
-set so=5
+" Set x lines to the cursor - when moving vertically using j/k
+set scrolloff=3
+set display+=lastline
+
+set number
 
 " Height of the command bar
 set cmdheight=2
 
-" Add a bit extra margin to the left
-set foldcolumn=1
+set ruler
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -53,11 +62,17 @@ set background=dark
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use spaces instead of tabs
-set expandtab
+if has('autocmd')
+  filetype plugin indent on
+endif
 
-" Be smart when using tabs ;)
+" Use spaces instead of tabs
+" set expandtab
+
+set autoindent
+set backspace=indent,eol,start
 set smarttab
+set complete-=i
 
 " 1 tab == 4 spaces
 set shiftwidth=2
