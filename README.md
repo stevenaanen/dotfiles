@@ -25,7 +25,16 @@ Install oh-my-zsh
 
 ## neovim
 
+Package manager (plug):
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Config (including packages to install):
 `ln -s ~/git/my-workspace/.config/nvim ~/.config`
+
+`nvim +PlugInstall`
 
 ## Karabiner (keyboard settings)
 
