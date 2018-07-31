@@ -20,6 +20,9 @@ Plug 'morhetz/gruvbox'
 " vue file support
 Plug 'posva/vim-vue'
 
+" git support
+Plug 'tpope/vim-fugitive'
+
 " status bar
 Plug 'vim-airline/vim-airline'
 
