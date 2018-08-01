@@ -23,6 +23,9 @@ Plug 'posva/vim-vue'
 " git support
 Plug 'tpope/vim-fugitive'
 
+" terraform files
+Plug 'hashivim/vim-terraform'
+
 " status bar
 Plug 'vim-airline/vim-airline'
 
