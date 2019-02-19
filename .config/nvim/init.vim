@@ -64,6 +64,8 @@ set number
 
 set ruler
 
+" show open buffers in command line
+let g:airline#extensions#tabline#enabled = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
