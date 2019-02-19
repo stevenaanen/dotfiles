@@ -29,9 +29,25 @@ Plug 'hashivim/vim-terraform'
 " status bar
 Plug 'vim-airline/vim-airline'
 
+" editorconfig support
+Plug 'editorconfig/editorconfig-vim'
+
+" visual file tree
+Plug 'scrooloose/nerdtree'
+
+" fuzzy file & buffer switching
+Plug 'ctrlpvim/ctrlp.vim'
+
 call plug#end()
 
 " usage: https://github.com/junegunn/vim-plug
+
+" nerdtree plugin keymapping
+map <C-n> :NERDTreeToggle<CR>
+" auto close nerdtree on last file close
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" show dotfiles
+let NERDTreeShowHidden=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => System basics
