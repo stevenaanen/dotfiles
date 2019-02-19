@@ -129,17 +129,6 @@ set wrap            "Wrap lines
 " vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 " vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
-" Disable arrow keys (for faster learning)
-no <down> <Nop>
-no <left> <Nop>
-no <right> <Nop>
-no <up> <Nop>
-ino <down> <Nop>
-ino <left> <Nop>
-ino <right> <Nop>
-ino <up> <Nop>
-
-
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
