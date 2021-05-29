@@ -1,5 +1,16 @@
 # Steve's workspace / dev setup
 
+## TODO
+
+- [ ] Alfred & config
+- [ ] VSCode config
+- [ ] Git config
+- [ ] Full install script
+- [ ] Homebrew package install script
+- [ ] Homebrew Cask install script (all available apps using this)
+- [ ] Add menu to install script to select categories to install
+
+
 ## Sublime
 
 ```
@@ -50,4 +61,8 @@ Sets some OS-level preferences.
 `sh defaults.sh`
 
 Logout and login after this.
+
+## Fonts
+
+Install (https://github.com/tonsky/FiraCode)[FiraCode].
 
