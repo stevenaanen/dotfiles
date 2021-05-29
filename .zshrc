@@ -4,10 +4,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/steven/.oh-my-zsh
 
+# Fix locale issues with en_NL
+export LC_ALL=en_US.UTF-8
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="pygmalion"
+ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +54,7 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sbt scala docker node nvm npm bower osx web-search catimg)
+plugins=(git sbt scala docker node nvm npm bower osx web-search catimg kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -92,7 +95,10 @@ export NVM_DIR="$HOME/.nvm"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export HOMEBREW_NO_ANALYTICS=1
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # My environment variables
 source ~/.env
+
