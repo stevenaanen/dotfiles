@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ActualVim",
 		"Compare Side-By-Side",
 		"EditorConfig",
 		"Emmet",
@@ -15,5 +16,5 @@
 		"Sync View Scroll",
 		"Terraform",
 		"xpath"
-	]
+	],
 }
