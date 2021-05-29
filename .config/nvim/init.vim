@@ -10,6 +10,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins (vim-plug)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" usage: https://github.com/junegunn/vim-plug
+"
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Make sure you use single quotes
@@ -26,6 +28,9 @@ Plug 'tpope/vim-fugitive'
 " terraform files
 Plug 'hashivim/vim-terraform'
 
+" typescript support
+Plug 'leafgarland/typescript-vim'
+
 " status bar
 Plug 'vim-airline/vim-airline'
 
@@ -38,16 +43,50 @@ Plug 'scrooloose/nerdtree'
 " fuzzy file & buffer switching
 Plug 'ctrlpvim/ctrlp.vim'
 
+" surround blocks with things
+Plug 'tpope/vim-surround'
+
+" prettier support
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 call plug#end()
 
-" usage: https://github.com/junegunn/vim-plug
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Editing mappings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Move a line of text using ALT+[jk]
+" nmap <M-j> mz:m+<cr>`z
+" nmap <M-k> mz:m-2<cr>`z
+" vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+" vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
+" use space as leader key for custom shortcuts
+let mapleader="\<space>"
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " nerdtree plugin keymapping
-map <C-n> :NERDTreeToggle<CR>
+nmap <leader>n :NERDTreeToggle<cr>
 " auto close nerdtree on last file close
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " show dotfiles
 let NERDTreeShowHidden=1
+
+" ctrl+p keymapping
+" Use a leader instead of the actual named binding
+nmap <leader>p :CtrlP<cr>
+
+" Easy bindings for its various modes
+nmap <leader>bb :CtrlPBuffer<cr>
+nmap <leader>bm :CtrlPMixed<cr>
+nmap <leader>br :CtrlPMRU<cr>
+" for ctrlp_nerdtree
+let g:ctrlp_nerdtree_show_hidden = 1
+
+" editorconfig don't autowrap
+let g:EditorConfig_disable_rules = ['max_line_length']
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => System basics
@@ -81,7 +120,7 @@ set number
 set ruler
 
 " show open buffers in command line
-let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#enabled = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -120,14 +159,6 @@ set si              "Smart indent
 set wrap            "Wrap lines
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Editing mappings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Move a line of text using ALT+[jk]
-" nmap <M-j> mz:m+<cr>`z
-" nmap <M-k> mz:m-2<cr>`z
-" vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
-" vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
