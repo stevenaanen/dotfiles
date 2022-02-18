@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Steven
+	email = hi@stevenaanen.com
+[core]
+	editor = nvim
+	excludesfile = /Users/steven/.gitignore_global
+[color]
+	ui = auto
+[push]
+	default = simple

@@ -25,9 +25,6 @@ Plug 'posva/vim-vue'
 " git support
 Plug 'tpope/vim-fugitive'
 
-" terraform files
-Plug 'hashivim/vim-terraform'
-
 " typescript support
 Plug 'leafgarland/typescript-vim'
 

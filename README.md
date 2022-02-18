@@ -1,15 +1,21 @@
-# Steve's workspace / dev setup
+# Steve's workspace
+
+## Instructions
+
+- Raycast settings need to be imported manually using *Preferences > Advanced > Import*
+- Setup [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) manually
 
 ## TODO
 
-- [ ] Alfred & config
+- [ ] Raycast config once option is available
 - [ ] VSCode config
 - [ ] Git config
 - [ ] Full install script
 - [ ] Homebrew package install script
-- [ ] Homebrew Cask install script (all available apps using this)
 - [ ] Add menu to install script to select categories to install
 
+check
+https://gist.github.com/bradp/bea76b16d3325f5c47d4
 
 ## Sublime
 
