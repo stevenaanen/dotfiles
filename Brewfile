@@ -15,6 +15,7 @@ brew "htop"
 brew "icdiff"
 brew "imagemagick", args: ["with-fontconfig"]
 brew "jq"
+brew "mackup"
 brew "mas"
 brew "moreutils"
 brew "neovim"

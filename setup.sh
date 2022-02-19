@@ -29,7 +29,9 @@ chsh -s /bin/zsh
 
 # Config
 echo "Linking config files..."
-source link-config.sh
+BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ln -sf ${BASE}/.mackup.cfg ~/.mackup.cfg
+mackup restore
 
 # Install vim-plug for plugins in nvim - 
 # https://github.com/junegunn/vim-plug

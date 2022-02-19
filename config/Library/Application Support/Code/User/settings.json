@@ -1,0 +1,86 @@
+{
+    "telemetry.enableTelemetry": false,
+    "editor.cursorStyle": "block",
+    "files.insertFinalNewline": true,
+    "window.title": "${activeEditorFull}${separator}${rootName}",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New'",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "prettier.disableLanguages": [],
+    "prettier.requireConfig": true,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue-scss": "scss"
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.vue",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "explorer.confirmDelete": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "eslint.packageManager": "yarn",
+    "npm.packageManager": "yarn",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.quickSuggestionsDelay": 5,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.suggest.localityBonus": true,
+    "javascript.preferences.quoteStyle": "single",
+    "vim.hlsearch": true,
+    "vim.replaceWithRegister": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "editor.lineNumbers": "relative",
+    "vim.camelCaseMotion.enable": true,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "diffEditor.renderSideBySide": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.scroll": 10,
+    "workbench.colorTheme": "Monokai",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "jest.autoEnable": false,
+    "todohighlight.isEnable": true,
+    "prettier.packageManager": "yarn",
+    "vetur.experimental.templateInterpolationService": true,
+    "editor.fontSize": 13,
+    "tabnine.experimentalAutoImports": true,
+}
