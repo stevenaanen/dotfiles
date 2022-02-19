@@ -4,6 +4,10 @@
 echo "Setting OS defaults..."
 source defaults.sh
 
+# Compilers
+echo "Installing xcode-stuff"
+xcode-select --install
+
 # Homebrew
 if test ! $(which brew); then
   echo "Installing homebrew..."
@@ -18,7 +22,10 @@ brew bundle install
 brew cleanup
 
 # ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "Installing Oh My ZSH..."
+curl -L http://install.ohmyz.sh | sh
+echo "Setting ZSH as shell..."
+chsh -s /bin/zsh
 
 # Config
 echo "Linking config files..."
