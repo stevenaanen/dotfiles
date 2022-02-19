@@ -63,7 +63,6 @@ mas "AdBlock Pro", id: 1018301773
 mas "Airmail", id: 918858936
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
-mas "Beepify", id: 1474644374
 mas "GarageBand", id: 682658836
 mas "Ghostery Lite", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288

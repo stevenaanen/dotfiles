@@ -4,9 +4,11 @@
 echo "Setting OS defaults..."
 source defaults.sh
 
-# Compilers
-echo "Installing xcode-stuff"
-xcode-select --install
+# Make/xcode
+if test ! $(xcode-select -p); then
+  echo "Installing xcode-stuff"
+  xcode-select --install
+fi
 
 # Homebrew
 if test ! $(which brew); then
@@ -18,7 +20,7 @@ fi
 brew update
 read -p "Press [Enter] key to install apps (takes a while)"
 echo "Installing apps..."
-brew bundle install
+brew bundle install --no-upgrade
 brew cleanup
 
 # ZSH
@@ -29,6 +31,7 @@ chsh -s /bin/zsh
 
 # Config
 echo "Linking config files..."
+touch ~/.env
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -sf ${BASE}/.mackup.cfg ~/.mackup.cfg
 mackup restore
