@@ -11,7 +11,7 @@ if [ $(ls -al ~/.ssh/*.pub 2>/dev/null | wc -l) -eq 0 ]; then
   echo 'No SSH keys found, proceeding to setup...';
   source ./ssh-setup.sh
   echo 'Doing git pull as test for SSH'
-  git pull
+  git pull --ff-only
   sleep 4
 fi
 

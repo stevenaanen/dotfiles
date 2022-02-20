@@ -1,8 +1,8 @@
 tap "beeftornado/rmtree"
-tap "caskroom/fonts"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -13,7 +13,6 @@ brew "git"
 brew "helm"
 brew "htop"
 brew "icdiff"
-brew "imagemagick", args: ["with-fontconfig"]
 brew "jq"
 brew "mackup"
 brew "mas"
@@ -37,10 +36,11 @@ cask "cron"
 cask "cyberduck"
 cask "docker"
 cask "dropbox"
-cask "flux"
 cask "figma"
 cask "firefox"
+cask "flux"
 cask "font-fira-code"
+cask "font-lato"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "iterm2"
@@ -56,11 +56,9 @@ cask "sublime-text"
 cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
-cask "yubico-authenticator"
 cask "zoom"
 
 mas "AdBlock Pro", id: 1018301773
-mas "Airmail", id: 918858936
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "GarageBand", id: 682658836
@@ -80,4 +78,3 @@ mas "Spark – Email App by Readdle", id: 1176895641
 mas "Telegram", id: 747648890
 mas "Things", id: 904280696
 mas "Unsplash Wallpapers", id: 1284863847
-mas "WhatsApp Desktop", id: 1147396723
