@@ -8,7 +8,7 @@ fi
 read -p "Enter Github email: " email
 ssh-keygen -t ed25519 -C $email
 
-if test ! "~/.ssh/config"; then
+if test ! -e ~/.ssh/config; then
   echo "Creating .ssh/config..."
   echo "Host *
   AddKeysToAgent yes
