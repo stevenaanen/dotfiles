@@ -1,14 +1,23 @@
 #!/bin/sh
 
-# Defaults
-echo "Setting OS defaults..."
-source defaults.sh
-
 # Make/xcode
 if test ! $(xcode-select -p); then
   echo "Installing xcode-stuff"
   xcode-select --install
 fi
+
+# SSH
+if [ $(ls -al ~/.ssh/*.pub 2>/dev/null | wc -l) -eq 0 ]; then
+  echo 'No SSH keys found, proceeding to setup...';
+  source ./ssh-setup.sh
+  echo 'Doing git pull as test for SSH'
+  git pull
+  sleep 4
+fi
+
+# Defaults
+echo "Setting OS defaults..."
+source ./defaults.sh
 
 # Homebrew
 if test ! $(which brew); then
