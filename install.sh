@@ -1,9 +1,13 @@
 #!/bin/sh
 
+set -e
+set -o pipefail
+
 # Make/xcode
-if test ! $(xcode-select -p); then
+if test ! $(xcode-select -p 2>/dev/null); then
   echo "Installing xcode-stuff"
   xcode-select --install
+  read -p "Press [Enter] once xcode install is complete"
 fi
 
 # SSH
@@ -32,12 +36,6 @@ echo "Installing apps..."
 brew bundle install --no-upgrade
 brew cleanup
 
-# ZSH
-echo "Installing Oh My ZSH..."
-curl -L http://install.ohmyz.sh | sh
-echo "Setting ZSH as shell..."
-chsh -s /bin/zsh
-
 # Config
 echo "Linking config files..."
 touch ~/.env
@@ -50,5 +48,11 @@ mackup restore
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 nvim +PlugInstall +PlugUpdate +qall
+
+# ZSH
+echo "Installing Oh My ZSH..."
+curl -L http://install.ohmyz.sh | sh
+echo "Setting ZSH as shell..."
+chsh -s /bin/zsh
 
 echo "All set up... let's start shipping Stevie 🚀"
