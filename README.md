@@ -2,10 +2,13 @@
 
 ## Instructions
 
+For new machine, setup SSH keys using `sh ssh-setup.sh` and cloning this repo.
+
 Run `sh install.sh` to install everything.
 
 Manual steps:
 
 - Copy over `.env`
-- Setup [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
+- Configure additional SSH keys if needed
+- Copy over Documents, Desktop, Downloads
 
