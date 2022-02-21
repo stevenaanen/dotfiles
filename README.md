@@ -10,5 +10,7 @@ Manual steps:
 
 - Copy over `.env`
 - Configure additional SSH keys if needed
-- Copy over Documents, Desktop, Downloads
+- Copy over git folder
+- Copy over Documents, Desktop, Downloads from Dropbox
+- Log in to Spark using personal email for synced settings
 

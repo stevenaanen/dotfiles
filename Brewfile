@@ -18,9 +18,10 @@ brew "mackup"
 brew "mas"
 brew "moreutils"
 brew "neovim"
+brew "node"
 brew "nvm"
-brew "python3"
 brew "pwgen"
+brew "python3"
 brew "tig"
 brew "trash"
 brew "tree"
@@ -53,6 +54,7 @@ cask "postman"
 cask "raindropio"
 cask "raycast"
 cask "sublime-text"
+cask "thingsmacsandboxhelper"
 cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
@@ -66,7 +68,6 @@ mas "Ghostery Lite", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288
 mas "Keynote", id: 409183694
 mas "Mactracker", id: 430255202
-mas "Magnet", id: 441258766
 mas "MainStage", id: 634159523
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
