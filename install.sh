@@ -40,6 +40,7 @@ brew cleanup
 echo "Linking config files..."
 touch ~/.env
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ln -sf ${BASE}/mackup ~/.mackup
 ln -sf ${BASE}/.mackup.cfg ~/.mackup.cfg
 mackup restore
 

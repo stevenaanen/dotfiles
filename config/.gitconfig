@@ -5,7 +5,7 @@
 	email = hi@stevenaanen.com
 [core]
 	editor = nvim
-	excludesfile = /Users/steven/.gitignore_global
+	excludesfile = /Users/steven/.gitignore
 [color]
 	ui = auto
 [push]
