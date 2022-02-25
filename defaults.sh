@@ -25,9 +25,8 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false # Disable auto-correct
 
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true     # Show filename extensions
-defaults write com.apple.Finder AppleShowAllFiles -bool true    # Show hidden files
-defaults write com.apple.finder AppleShowAllFiles TRUE      # Show dotfiles
-defaults write com.apple.finder FXPreferredViewStyle Clmv       # Column view default in Finder
+defaults write com.apple.finder AppleShowAllFiles -bool false      # Show dotfiles
+defaults write com.apple.finder FXPreferredViewStyle -string "Clmv"       # Column view default in Finder
 defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
 
