@@ -94,10 +94,17 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Homebrew
 export HOMEBREW_NO_ANALYTICS=1
+
+# Z
+. /opt/homebrew/etc/profile.d/z.sh 
 
 # Color highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Aliases
+alias git-clean-merged="git branch --merged | egrep -v \"(^\*|master|main|dev|staging|prod)\" | xargs git branch -d"
 
 # My environment variables
 source ~/.env

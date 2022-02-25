@@ -1,7 +1,12 @@
+#!/bin/sh
+set -e
+
 defaults write -g com.apple.trackpad.scaling 2      # Trackpadd scaling speed
 defaults write -g com.apple.mouse.scaling 2.5
 defaults write com.apple.AppleMultitouchTrackpad Clicking -int 1
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 1
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -int 1
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -int 1
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -int 1
 defaults write com.apple.AppleMultitouchTrackpad TrackpadPinch -int 1
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRotate -int 1
