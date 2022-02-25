@@ -55,5 +55,6 @@ echo "Installing Oh My ZSH..."
 curl -L http://install.ohmyz.sh | sh
 echo "Setting ZSH as shell..."
 chsh -s /bin/zsh
+$(brew --prefix)/opt/fzf/install
 
 echo "All set up... let's start shipping Stevie 🚀"
