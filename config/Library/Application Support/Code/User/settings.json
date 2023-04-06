@@ -1,86 +1,132 @@
 {
-    "telemetry.enableTelemetry": false,
-    "editor.cursorStyle": "block",
-    "files.insertFinalNewline": true,
-    "window.title": "${activeEditorFull}${separator}${rootName}",
-    "files.trimTrailingWhitespace": true,
-    "editor.formatOnPaste": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "breadcrumbs.enabled": true,
-    "editor.renderControlCharacters": false,
-    "editor.minimap.enabled": true,
-    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New'",
-    "editor.fontLigatures": true,
-    "editor.tabSize": 2,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-    ],
-    "prettier.disableLanguages": [],
-    "prettier.requireConfig": true,
-    "emmet.showAbbreviationSuggestions": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "emmet.includeLanguages": {
-        "vue-html": "html",
-        "vue-scss": "scss"
-    },
-    "todohighlight.include": [
-        "**/*.js",
-        "**/*.jsx",
-        "**/*.ts",
-        "**/*.tsx",
-        "**/*.html",
-        "**/*.vue",
-        "**/*.php",
-        "**/*.css",
-        "**/*.scss"
-    ],
-    "explorer.confirmDelete": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "eslint.packageManager": "yarn",
-    "npm.packageManager": "yarn",
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.formatOnSave": true,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.quickSuggestionsDelay": 5,
-    "editor.acceptSuggestionOnEnter": "smart",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.suggest.localityBonus": true,
-    "javascript.preferences.quoteStyle": "single",
-    "vim.hlsearch": true,
-    "vim.replaceWithRegister": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
-    "editor.lineNumbers": "relative",
-    "vim.camelCaseMotion.enable": true,
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "diffEditor.renderSideBySide": false,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "vim.scroll": 10,
-    "workbench.colorTheme": "Monokai",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "vetur.format.defaultFormatter.html": "prettier",
-    "jest.autoEnable": false,
-    "todohighlight.isEnable": true,
-    "prettier.packageManager": "yarn",
-    "vetur.experimental.templateInterpolationService": true,
-    "editor.fontSize": 13,
-    "tabnine.experimentalAutoImports": true,
+  "editor.cursorStyle": "block",
+  "files.insertFinalNewline": true,
+  "window.title": "${activeEditorShort}${separator}${rootPath}",
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": false,
+  "editor.minimap.enabled": true,
+  "editor.fontFamily": "Operator Mono Lig, Dank Mono, Fira Code, Menlo, Monaco, 'Courier New'",
+  "editor.fontSize": 16,
+  "editor.fontWeight": 300,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.stickyScroll.enabled": true,
+  "prettier.requireConfig": true,
+  "eslint.validate": ["vue", "html", "javascript", "typescript"],
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue-scss": "scss"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.suggest.localityBonus": true,
+  "javascript.preferences.quoteStyle": "single",
+  "vim.hlsearch": true,
+  "vim.replaceWithRegister": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "editor.lineNumbers": "relative",
+  "vim.camelCaseMotion.enable": true,
+  "diffEditor.renderSideBySide": false,
+  "vim.scroll": 10,
+  "workbench.colorTheme": "Nord",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "error",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.showTabs": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.lineHeight": 1.7,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Nord]": {
+      "textMateRules": [
+        {
+          "scope": "emphasis",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "strong",
+          "settings": {
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.new",
+            "keyword.operator.expression",
+            "keyword.operator.cast",
+            "keyword.operator.instanceof",
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "this.self",
+          "scope": "variable.language",
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#ff5874"
+          }
+        },
+        {
+          "name": "@Decorator",
+          "scope": ["meta.decorator punctuation.decorator"],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["punctuation.definition.comment", "comment"],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "keyword.control",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+      ]
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "cSpell.userWords": [
+    "Pressable"
+  ]
 }

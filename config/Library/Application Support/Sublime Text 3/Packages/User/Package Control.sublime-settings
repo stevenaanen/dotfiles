@@ -6,15 +6,14 @@
 	"installed_packages":
 	[
 		"ActualVim",
-		"Compare Side-By-Side",
 		"EditorConfig",
 		"Emmet",
+		"FileDiffs",
 		"HTMLBeautify",
 		"Package Control",
 		"Pretty JSON",
 		"Sass",
 		"Sync View Scroll",
-		"Terraform",
-		"xpath"
+		"xpath",
 	],
 }

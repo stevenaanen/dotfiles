@@ -13,7 +13,7 @@
 		".git",
 		"node_modules"
 	],
-	"font_size": 13.0,
+	"font_size": 15.0,
 	"ignored_packages":
 	[
 		"LiveReload",

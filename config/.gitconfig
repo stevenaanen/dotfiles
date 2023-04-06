@@ -10,5 +10,8 @@
 	ui = auto
 [push]
 	default = simple
+	autoSetupRemote = true
 [pull]
 	rebase = true
+[fetch]
+	prune = true

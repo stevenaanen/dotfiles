@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -104,8 +106,18 @@ export HOMEBREW_NO_ANALYTICS=1
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
-alias git-clean-merged="git branch --merged | egrep -v \"(^\*|master|main|dev|staging|prod)\" | xargs git branch -d"
+alias gcaa="git commit --all --amend"
+alias grbom="git rebase origin/main"
+alias git-clean-merged-dry="git branch --merged | egrep -v \"(^\*|master|main|dev|staging|prod)\""
+alias git-clean-merged="git-clean-merged-dry | xargs git branch -d"
+alias git-clean-gone-dry="git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '\$2==\"[gone]\" {print \$1}' | egrep -v \"(^\*|master|main|dev|staging|prod)\""
+alias git-clean-gone-exec="git-clean-gone-dry | xargs git branch -D"
+
+# Java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # My environment variables
 source ~/.env
 
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
