@@ -24,6 +24,7 @@ brew "node"
 brew "nvm"
 brew "pwgen"
 brew "python3"
+brew "readdle-spark"
 brew "tig"
 brew "trash"
 brew "tree"
@@ -77,7 +78,6 @@ mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Save to Raindrop.io", id: 1549370672
 mas "Slack for Desktop", id: 803453959
-mas "Spark – Email App by Readdle", id: 1176895641
 mas "Telegram", id: 747648890
 mas "Things", id: 904280696
 mas "Unsplash Wallpapers", id: 1284863847

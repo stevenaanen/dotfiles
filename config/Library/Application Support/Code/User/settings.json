@@ -9,10 +9,11 @@
   "editor.minimap.enabled": true,
   "editor.fontFamily": "Operator Mono Lig, Dank Mono, Fira Code, Menlo, Monaco, 'Courier New'",
   "editor.fontSize": 16,
-  "editor.fontWeight": 300,
+  "editor.fontWeight": 400,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": true,
+  "workbench.fontAliasing": "auto",
   "prettier.requireConfig": true,
   "eslint.validate": ["vue", "html", "javascript", "typescript"],
   "emmet.showAbbreviationSuggestions": true,
@@ -42,7 +43,6 @@
   "vim.camelCaseMotion.enable": true,
   "diffEditor.renderSideBySide": false,
   "vim.scroll": 10,
-  "workbench.colorTheme": "Nord",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "error",
   "[typescript]": {
@@ -128,5 +128,6 @@
   "editor.accessibilitySupport": "off",
   "cSpell.userWords": [
     "Pressable"
-  ]
+  ],
+  "workbench.colorTheme": "Nord"
 }
