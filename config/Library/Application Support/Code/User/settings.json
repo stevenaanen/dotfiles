@@ -14,7 +14,6 @@
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": true,
   "workbench.fontAliasing": "auto",
-  "prettier.requireConfig": true,
   "eslint.validate": ["vue", "html", "javascript", "typescript"],
   "emmet.showAbbreviationSuggestions": true,
   "emmet.showExpandedAbbreviation": "always",
