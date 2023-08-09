@@ -40,15 +40,19 @@ brew cleanup
 echo "Linking config files..."
 touch ~/.env
 BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-ln -sf ${BASE}/mackup ~/.mackup
 ln -sf ${BASE}/.mackup.cfg ~/.mackup.cfg
 mackup restore
 
-# Install vim-plug for plugins in nvim - 
-# https://github.com/junegunn/vim-plug
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-nvim +PlugInstall +PlugUpdate +qall
+# Neovim using AstroNvim
+if test ! -d ~/.config/nvim; then
+  echo "Installing AstroNvim..."
+  git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+  ln -sf ${BASE}/config/.config/nvim/lua/user ~/.config/nvim/lua/user
+  nvim  --headless -c 'quitall'
+  echo "AstroNvim installed"
+else
+  echo "Skipping AstroNvim install - nvim config already present"
+fi
 
 # ZSH
 echo "Installing Oh My ZSH..."
