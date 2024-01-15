@@ -106,6 +106,7 @@ export HOMEBREW_NO_ANALYTICS=1
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
+alias pn="pnpm"
 alias gcaa="git commit --all --amend"
 alias grbom="git rebase origin/main"
 alias git-clean-merged-dry="git branch --merged | egrep -v \"(^\*|master|main|dev|staging|prod)\""

@@ -54,7 +54,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": false,
   "editor.lineHeight": 1.7,
@@ -79,7 +79,7 @@
             "keyword.operator.new",
             "keyword.operator.expression",
             "keyword.operator.cast",
-            "keyword.operator.instanceof",
+            "keyword.operator.instanceof"
           ],
           "settings": {
             "fontStyle": "italic"
@@ -111,7 +111,7 @@
           "settings": {
             "fontStyle": "italic"
           }
-        },
+        }
       ]
     }
   },
@@ -125,8 +125,7 @@
     "FIG_NEW_SESSION": "1"
   },
   "editor.accessibilitySupport": "off",
-  "cSpell.userWords": [
-    "Pressable"
-  ],
-  "workbench.colorTheme": "Nord"
+  "cSpell.userWords": ["Pressable"],
+  "workbench.colorTheme": "Nord",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true
 }

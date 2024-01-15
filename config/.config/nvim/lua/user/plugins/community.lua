@@ -7,4 +7,23 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.nord-nvim" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.completion.copilot-lua" },
+  {
+    "copilot.lua",
+    opts = {
+      suggestion = {
+        keymap = {
+          accept = "<C-l>",
+          accept_word = false,
+          accept_line = false,
+          next = "<C-.>",
+          prev = "<C-,>",
+          dismiss = "<C/>",
+        },
+      },
+    },
+  },
+  { import = "astrocommunity.motion.nvim-surround" },
 }

@@ -32,9 +32,14 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- resize buffer with ctrl+option+arrow keys
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    -- ["<C-M-Up>"] = { ":resize +2<cr>", desc = "Resize buffer up" },
+    -- ["<C-M-Down>"] = { ":resize -2<cr>", desc = "Resize buffer down" },
+    -- ["<C-Left>"] = { ":vertical resize +2<cr>", desc = "Resize buffer left" },
+    -- ["<C-Right>"] = { ":vertical resize -2<cr>", desc = "Resize buffer right" },
   },
 }
