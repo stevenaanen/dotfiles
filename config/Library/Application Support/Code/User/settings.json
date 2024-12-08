@@ -127,5 +127,7 @@
   "editor.accessibilitySupport": "off",
   "cSpell.userWords": ["Pressable"],
   "workbench.colorTheme": "Nord",
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true
 }

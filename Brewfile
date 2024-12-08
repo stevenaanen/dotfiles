@@ -30,6 +30,7 @@ brew "tree"
 brew "vim"
 brew "yarn"
 brew "z"
+brew "zoxide"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
@@ -68,7 +69,6 @@ mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "GarageBand", id: 682658836
 mas "Ghostery Lite", id: 1436953057
-mas "Grammarly for Safari", id: 1462114288
 mas "Keynote", id: 409183694
 mas "Mactracker", id: 430255202
 mas "MainStage", id: 634159523
