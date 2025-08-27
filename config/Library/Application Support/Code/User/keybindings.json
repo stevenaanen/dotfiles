@@ -145,5 +145,21 @@
     "key": "alt+escape",
     "command": "-editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "shift+cmd+i alt+cmd",
+    "command": "composerMode.chat"
+  },
+  {
+    "key": "alt+cmd",
+    "command": "composerMode.chat"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "composerMode.chat"
   }
 ]
