@@ -43,17 +43,6 @@ BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ln -sf ${BASE}/.mackup.cfg ~/.mackup.cfg
 mackup restore
 
-# Neovim using AstroNvim
-if test ! -d ~/.config/nvim; then
-  echo "Installing AstroNvim..."
-  git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-  ln -sf ${BASE}/config/.config/nvim/lua/user ~/.config/nvim/lua/user
-  nvim  --headless -c 'quitall'
-  echo "AstroNvim installed"
-else
-  echo "Skipping AstroNvim install - nvim config already present"
-fi
-
 # ZSH
 echo "Installing Oh My ZSH..."
 curl -L http://install.ohmyz.sh | sh
