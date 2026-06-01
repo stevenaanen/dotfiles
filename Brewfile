@@ -51,13 +51,10 @@ cask "loom"
 cask "motu-m-series"
 cask "ngrok"
 cask "notion"
-cask "obsidian"
-cask "postman"
 cask "raindropio"
 cask "raycast"
 cask "sublime-text"
 cask "thingsmacsandboxhelper"
-cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
 
@@ -71,9 +68,6 @@ mas "Mactracker", id: 430255202
 mas "MainStage", id: 634159523
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Pocket", id: 568494494
-mas "Save to Pocket", id: 1477385213
-mas "Save to Raindrop.io", id: 1549370672
 mas "Slack for Desktop", id: 803453959
 mas "Telegram", id: 747648890
 mas "Things", id: 904280696
