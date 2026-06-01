@@ -43,10 +43,7 @@ defaults write com.apple.screencapture location -string "~/Downloads" # Save scr
 
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true     # Don't auto offer disks for time machine
 
-# defaults write com.apple.screencapture location -string "$HOME/Desktop"
-
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
-
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false     # Contains search in Safari
 
 
